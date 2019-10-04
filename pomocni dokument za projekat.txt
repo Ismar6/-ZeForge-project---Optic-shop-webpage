@@ -1,0 +1,82 @@
+https://color.adobe.com/search?q=flat%20google   boje
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+
+    <header id="home">
+        <div class="frame">
+            <a class="logo" href="index.html"></a>
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href="#home" >Home</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus">About us</a>
+                    </li>
+                     <li>
+                        <a href="#abouteyesight">About eyesight</a>
+                    </li>
+                    <li>
+                        <a href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a href="#brands">Brands</a>
+                    </li>
+                    <li>
+                        <a href="#location">Location</a>
+                    </li>
+                    <li>
+                    <a href="#contact">Contact</a>
+                    </li>
+                    </ul>
+                </nav>
+            <div class="search">
+                    <input class="search-input" type="text" placeholder="Search" />
+                    <span class="search-icon"></span>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+#landing-text h2{
+    color: #DC4437;
+}

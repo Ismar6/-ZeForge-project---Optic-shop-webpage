@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC&display=swap');
+
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+img{
+    display: block;
+    width: 100%;
+}
+
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 20px 0px 40px rgba(0,0,0,0.1),
+        -20px 0px 40px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-family: 'Spectral SC', serif;
+    text-transform: uppercase;
+    color: rgba(1, 1, 1, .9)
+}
+h2{
+    text-align: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    .nav{
+        border-bottom: 1px solid #77A7FB;
+        text-align: right;
+        height:8%;
+        width: 100%;
+        line-height: 70px;
+        border-top: 1px solid #FBCB43;
+        border-bottom: 1px solid #FBCB43;
+        position: fixed;
+        top: 0%;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .nav img{
+        height: 60px;
+        width: 100px;
+        float: left;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .nav h1{
+        float: left;
+        margin-left: 1.5rem;
+    }
+    .menu{
+        margin: 0 30px 0 0;
+        text-transform: uppercase;
+    }
+    .menu a{
+        clear: right;
+        text-decoration: none;
+        color:gray;
+        margin:0 10px;
+        line-height: 70px;
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+    span{
+        color:rgba(244, 180, 0, .9);
+    }
+    label{
+        margin: 0 40px 0 0;
+        font-size: 2rem;
+        line-height: 70px;
+        display: none;
+        width: 26px;
+        float: right;
+    }
+    #toggle{
+       display: none; 
+    }
+    .search{
+        display: inline-block;
+        height: auto;
+        padding: 10px;
+    }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+    
+
+
+
+
+
+
+.leftside{
+    position: fixed;
+    top: 20%;
+    height: 10%;
+    width: 5%;
+    left: 0;
+}
+.leftside li{
+    list-style-type: none;
+    padding: 10%;
+    transition: .6s;
+    color: white;
+    position: relative;
+}
+.leftside i{
+    align-items: center;
+}
+
+.leftside li:hover{
+    width: 90%;
+}
+.leftside li:nth-child(1){
+    background: #34B67A;
+}
+.leftside li:nth-child(2){
+    background: #FBCB43;
+}
+.leftside li:nth-child(3){
+    background: #E57368;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-weight: 2.5 rem;
+    color: darkslategray;
+}
+
+.emptiness{
+    height: 10vh;
+    width: auto;
+}
+
+#landing{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 50vh;
+}
+#landing-text{
+width: 45%;
+height: 86%;
+text-align: center;
+}
+#landing-text h2{
+    font-family: 'Spectral SC', serif;
+    text-transform: uppercase;
+}
+.telefon{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px dotted gray;
+}
+#landing-image{
+width: 90%;
+z-index: -1;
+}
+
+.aboutus-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.aboutus-image{
+    flex: 1;
+    width: 45%;
+}
+.aboutus-text{
+    flex: 1;
+    width: 45%;
+    margin: 3%;
+}
+
+#team-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.team{
+    width: 25%;
+    height: 30%;
+    margin: auto;
+}
+
+.team{
+    transition: 450ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out; 
+}
+
+.team:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+}
+
+.abouteye{
+border: 1px dashed #E57368;
+border-radius: 8px;
+margin: 1%;
+padding: 1%;
+}
+.abouteye i{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.abouteye p{
+text-align: justify;
+}
+
+
+
+.glassesx4{
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+    margin-bottom: 3rem;
+}
+
+#products{
+    background-color: rgba(66, 133, 244, .1)
+}
+#products p{
+    margin: 5% 0;
+    padding: 0 4%;
+}
+.glasses{
+    background-color: white;
+    border: 1px dashed gray;
+    width: 45%;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 15%;
+    transition: 450ms;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+.glasses:hover{
+    transform: rotate(5deg);
+}
+
+#brands{
+    display: flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+    margin-bottom: 3rem;
+}
+#logos1{
+    flex: 1;
+    order: -1;
+}
+#logos2{
+    flex: 1;
+    order: 2;
+}
+#brands-text{
+    flex: 2;
+    margin: 1%;
+    order: 1;
+}
+
+#brands img{
+    width: 200px;
+    border: 1rem;
+    padding: 2rem;
+}
+
+
+
+#brands-text h2, h3{
+    font-family: 'Spectral SC', serif;
+    text-transform: uppercase;
+    color: rgba(1, 1, 1, .9);
+    text-align: center;
+}
+
+
+#small-map, #big-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    box-shadow: 0 5px 20px #EBEBEB;
+}
+
+#contactus{
+    position: relative;
+}
+
+.contact-form{
+    width: 100%;
+    max-width: 600px;
+    background-color: #fbeceb;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    padding: 8px, 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 5px 20px #EBEBEB;
+}
+.txtb{
+    border: 1px solid #333333;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.txt label{
+    display: block;
+    text-align: left;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.btn{
+    display: inline-block;
+    background: #E57368;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width:768px){
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        border-bottom: 1px solid #77A7FB;
+        margin: 0;
+        background-color: #fbeceb;
+        font-size: 1.5rem;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+ 
+ 
+ 
+    .leftside{
+        position: fixed;
+        top: 60%;
+        height: 25%;
+        width: 15%;
+        right: unset;
+    }
+    .leftside li{
+        list-style-type: none;
+        padding: 25%;
+        transition: none;
+        color: white;
+    }
+    .leftside li:hover{
+        padding: none;
+        width: 125%;
+        height: 100%;
+    }
+    #big-map{
+        display: none;
+    }
+    #landing{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #landing-text{
+    width: 90%;
+    text-align: center;
+    }
+    #landing-image{
+    width: 90%;
+    }
+    .aboutus-container{
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+    }
+    .aboutus-image{
+        width: 90%;
+    }
+    .aboutus-text{
+        width: 90%;
+        margin: 3%;
+    }
+
+    .team{
+        width: 45%;
+        height: 70%;
+        margin: auto;    
+    }
+    .container{
+        flex-flow: row wrap;
+    }
+    .abouteye{
+        width: 45%;
+        margin: auto;
+    }
+    
+    .glassesx4{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .glasses{
+        width: 95%;
+        right: 3%;
+    }
+
+    #logos1{
+        flex: 1;
+        order: 1;
+        width: 45%;
+    }
+    #logos2{
+        flex: 1;
+        order: 2;
+        width: 45%;
+    }
+    #brands-text{
+        flex: 2;
+        order: 3;
+        padding: auto;
+        margin: 10%;
+        width: 80%;
+    }
+#location{
+    display: flex;
+    justify-content: space-around;
+}
+  
+
+}
+
+
+
+@media only screen and (min-width:769px){
+    #small-map{
+        display: none;
+    }
+}
