@@ -233,9 +233,12 @@ text-align: justify;
 }
 #brands{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow:row wrap;
     margin-bottom: 3rem;
+}
+#brands p{
+    text-align: justify;
 }
 #logos1{
     flex: 1;
@@ -370,7 +373,8 @@ text-align: justify;
     text-align: center;
     }
     #landing-image{
-    width: 90%;
+    width: 80%;
+    margin: auto;
     }
     .aboutus-container{
         flex-direction: column;
@@ -378,7 +382,8 @@ text-align: justify;
         height: auto;
     }
     .aboutus-image{
-        width: 90%;
+        width: 80%;
+        margin: auto;
     }
     .aboutus-text{
         width: 90%;
@@ -407,12 +412,14 @@ text-align: justify;
     #logos1{
         flex: 1;
         order: 1;
-        width: 45%;
+        width: 47%;
+        margin: auto;
     }
     #logos2{
         flex: 1;
         order: 2;
-        width: 45%;
+        width: 46%;
+        margin: auto;
     }
     #brands-text{
         flex: 2;
